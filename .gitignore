@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Arduino build files
+build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Local configuration and secrets
+.env
+secrets.h
+credentials.h
+config.h
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
